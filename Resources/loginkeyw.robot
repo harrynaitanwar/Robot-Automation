@@ -22,6 +22,9 @@ Click on In-patient ward
 Lgging In
     click button    ${click_login}
 
+LOgging out
+    click link    ${click_logout}
+
 Register a Patient
     click link    ${link_Register_a_Patient}
 
@@ -68,23 +71,21 @@ Done
 Main Page
     click link      ${m_page}
 
-Find Patient Record
+_Find Patient Record
     click link    ${click_patient_record}
+    input text    ${search_patient}     Madhavi Sharma
+    click element    ${select_patient}
 
+Request appointment
+    click link    ${link_ba}
+    input text    ${app_type}       Infectious Disease
+    click element    ${app_save}
+    click link      ${m_page}
 
+_Capture Vitals
+    click link      ${vitals_link}
+    input text      ${search_patient}   Madhavi Sharma
+    click element       ${select_vitals}
 
 Closing Browser
     close all browsers
-# 1. Username/Password ::: Admin/Admin123
-# 2. Click on In-patient ward
-#
-# Test Scenario’s:
-#
-# Login
-# Logout
-# Register a Patient
-# Find Patient Record
-# View the Patient
-# Search a Patient
-# Book an Appointment
-# Capture Vitals
