@@ -16,15 +16,16 @@ ${user3}        Sharma
 
 
 *** Test Cases ***
-Validating Test Senarios
-    [Tags]    Logging In
+
+Logging In
+
     set selenium speed    1s
     Enter User name     ${user}
     Enter pass      ${pwd}
     click on in-patient ward
     Lgging In
 
-    [Tags]    Register a Patient
+Register a Patient
     Register a Patient
     _Name       ${user2}
     Family Name     ${user3}
@@ -36,20 +37,21 @@ Validating Test Senarios
     Done
     Main Page
 
-    [Tags]    Find Patient Record
+Find Patient Record
     set selenium speed    1s
     _Find Patient Record
 
-    [Tags]    Book an Appointment
+Book an Appointment
     set selenium speed    1s
     Request appointment
 
-    [Tags]    Capture Vitals
+Capture Vitals
     set selenium speed    1s
     _capture vitals
 
-    [Tags]    Log out
+Log out
     LOgging out
     Closing Browser
+
 
 
