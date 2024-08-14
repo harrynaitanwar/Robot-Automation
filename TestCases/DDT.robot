@@ -12,9 +12,6 @@ ${user}      Admin
 ${pwd}      Admin123
 ${user2}        Madhavi
 ${user3}        Sharma
-
-
-
 *** Test Cases ***
 
 Logging In
