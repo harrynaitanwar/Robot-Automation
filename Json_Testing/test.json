@@ -1,0 +1,31 @@
+{
+    "id": 1,
+    "first_name": "Ody",
+    "last_name": "Rockey",
+    "email": "orockey0@businessinsider.com",
+    "personal": {
+      "best_friend": "Ody Rockey",
+      "favorite_color": "Aquamarine",
+      "favorite_word": "faucibus",
+      "physical_features": {
+        "eye_color": "Green",
+        "hair_color": "Purple",
+        "gender": "Male",
+        "shirt_size": "2XL"
+      },
+      "siblings": [],
+      "deepest": {
+        "darkest": {
+          "secret": {
+            "that": {
+              "they": {
+                "have": {
+                  "never told anyone": "habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
